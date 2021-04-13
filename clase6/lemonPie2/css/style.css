@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: 
+    local('Playfair Display BoldItalic'),
+    local('PlayfairDisplay-BoldItalic'),
+    url(../fonts/PlayfairDisplay-BoldItalic.ttf);
+}
+body{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+h1{
+font-size: 60px;
+}
+.banner{
+    background-image: url(../img/lemon-pie2.jpg);
+    height: 343px;
+    color: white;
+    position: relative;
+}
+.texto-banner{
+    position: absolute;
+    bottom: 0px;
+    margin: 5px 20px;
+}
+
+h3{
+    font-family: 'Playfair Display';
+}
+.fa-list-ol{
+    color: darkorchid;
+}
